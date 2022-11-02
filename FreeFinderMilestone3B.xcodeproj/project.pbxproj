@@ -34,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF46DB8D2913382A000600A1 /* Tests_MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_MapKit.swift; sourceTree = "<group>"; };
+		AF46DB9129133863000600A1 /* ProfileViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewTests.swift; sourceTree = "<group>"; };
+		AF46DB9229133863000600A1 /* MapViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewTests.swift; sourceTree = "<group>"; };
+		AF46DB9329133863000600A1 /* ListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTests.swift; sourceTree = "<group>"; };
+		AF46DB9429133863000600A1 /* FreeFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderTests.swift; sourceTree = "<group>"; };
+		AF46DB9529133863000600A1 /* ItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTests.swift; sourceTree = "<group>"; };
+		AF46DB9629133863000600A1 /* CreateItemViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemViewTests.swift; sourceTree = "<group>"; };
 		AFB333FB291335C3004AAA10 /* FreeFinderMilestone3B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeFinderMilestone3B.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB333FE291335C3004AAA10 /* FreeFinderMilestone3BApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BApp.swift; sourceTree = "<group>"; };
 		AFB33400291335C3004AAA10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 		AFB33415291335C4004AAA10 /* FreeFinderMilestone3BUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeFinderMilestone3BUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB33419291335C4004AAA10 /* FreeFinderMilestone3BUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BUITests.swift; sourceTree = "<group>"; };
 		AFB3341B291335C4004AAA10 /* FreeFinderMilestone3BUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFD8190E2913374B00295463 /* Tests_GoogleAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_GoogleAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +79,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF46DB8C2913382A000600A1 /* Tests MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				AF46DB8D2913382A000600A1 /* Tests_MapKit.swift */,
+			);
+			path = "Tests MapKit";
+			sourceTree = "<group>";
+		};
+		AF46DB9029133863000600A1 /* FreeFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF46DB9129133863000600A1 /* ProfileViewTests.swift */,
+				AF46DB9229133863000600A1 /* MapViewTests.swift */,
+				AF46DB9329133863000600A1 /* ListViewTests.swift */,
+				AF46DB9429133863000600A1 /* FreeFinderTests.swift */,
+				AF46DB9529133863000600A1 /* ItemTests.swift */,
+				AF46DB9629133863000600A1 /* CreateItemViewTests.swift */,
+			);
+			path = FreeFinderTests;
+			sourceTree = "<group>";
+		};
 		AFB333F2291335C3004AAA10 = {
 			isa = PBXGroup;
 			children = (
+				AF46DB9029133863000600A1 /* FreeFinderTests */,
+				AF46DB8C2913382A000600A1 /* Tests MapKit */,
+				AFD8190D2913374B00295463 /* Tests GoogleAuth */,
 				AFB333FD291335C3004AAA10 /* FreeFinderMilestone3B */,
 				AFB3340E291335C4004AAA10 /* FreeFinderMilestone3BTests */,
 				AFB33418291335C4004AAA10 /* FreeFinderMilestone3BUITests */,
@@ -125,6 +157,14 @@
 				AFB3341B291335C4004AAA10 /* FreeFinderMilestone3BUITestsLaunchTests.swift */,
 			);
 			path = FreeFinderMilestone3BUITests;
+			sourceTree = "<group>";
+		};
+		AFD8190D2913374B00295463 /* Tests GoogleAuth */ = {
+			isa = PBXGroup;
+			children = (
+				AFD8190E2913374B00295463 /* Tests_GoogleAuth.swift */,
+			);
+			path = "Tests GoogleAuth";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
