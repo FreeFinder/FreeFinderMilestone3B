@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB333FF291335C3004AAA10 /* FreeFinderMilestone3BApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB333FE291335C3004AAA10 /* FreeFinderMilestone3BApp.swift */; };
+		AFB33401291335C3004AAA10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB33400291335C3004AAA10 /* ContentView.swift */; };
+		AFB33403291335C4004AAA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB33402291335C4004AAA10 /* Assets.xcassets */; };
+		AFB33406291335C4004AAA10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB33405291335C4004AAA10 /* Preview Assets.xcassets */; };
+		AFB33410291335C4004AAA10 /* FreeFinderMilestone3BTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB3340F291335C4004AAA10 /* FreeFinderMilestone3BTests.swift */; };
+		AFB3341A291335C4004AAA10 /* FreeFinderMilestone3BUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB33419291335C4004AAA10 /* FreeFinderMilestone3BUITests.swift */; };
+		AFB3341C291335C4004AAA10 /* FreeFinderMilestone3BUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB3341B291335C4004AAA10 /* FreeFinderMilestone3BUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB3340C291335C4004AAA10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB333F3291335C3004AAA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB333FA291335C3004AAA10;
+			remoteInfo = FreeFinderMilestone3B;
+		};
+		AFB33416291335C4004AAA10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB333F3291335C3004AAA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB333FA291335C3004AAA10;
+			remoteInfo = FreeFinderMilestone3B;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFB333FB291335C3004AAA10 /* FreeFinderMilestone3B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeFinderMilestone3B.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB333FE291335C3004AAA10 /* FreeFinderMilestone3BApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BApp.swift; sourceTree = "<group>"; };
+		AFB33400291335C3004AAA10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFB33402291335C4004AAA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFB33405291335C4004AAA10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFB3340B291335C4004AAA10 /* FreeFinderMilestone3BTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeFinderMilestone3BTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB3340F291335C4004AAA10 /* FreeFinderMilestone3BTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BTests.swift; sourceTree = "<group>"; };
+		AFB33415291335C4004AAA10 /* FreeFinderMilestone3BUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeFinderMilestone3BUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB33419291335C4004AAA10 /* FreeFinderMilestone3BUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BUITests.swift; sourceTree = "<group>"; };
+		AFB3341B291335C4004AAA10 /* FreeFinderMilestone3BUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB333F8291335C3004AAA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB33408291335C4004AAA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB33412291335C4004AAA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB333F2291335C3004AAA10 = {
+			isa = PBXGroup;
+			children = (
+				AFB333FD291335C3004AAA10 /* FreeFinderMilestone3B */,
+				AFB3340E291335C4004AAA10 /* FreeFinderMilestone3BTests */,
+				AFB33418291335C4004AAA10 /* FreeFinderMilestone3BUITests */,
+				AFB333FC291335C3004AAA10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB333FC291335C3004AAA10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB333FB291335C3004AAA10 /* FreeFinderMilestone3B.app */,
+				AFB3340B291335C4004AAA10 /* FreeFinderMilestone3BTests.xctest */,
+				AFB33415291335C4004AAA10 /* FreeFinderMilestone3BUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB333FD291335C3004AAA10 /* FreeFinderMilestone3B */ = {
+			isa = PBXGroup;
+			children = (
+				AFB333FE291335C3004AAA10 /* FreeFinderMilestone3BApp.swift */,
+				AFB33400291335C3004AAA10 /* ContentView.swift */,
+				AFB33402291335C4004AAA10 /* Assets.xcassets */,
+				AFB33404291335C4004AAA10 /* Preview Content */,
+			);
+			path = FreeFinderMilestone3B;
+			sourceTree = "<group>";
+		};
+		AFB33404291335C4004AAA10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFB33405291335C4004AAA10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFB3340E291335C4004AAA10 /* FreeFinderMilestone3BTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB3340F291335C4004AAA10 /* FreeFinderMilestone3BTests.swift */,
+			);
+			path = FreeFinderMilestone3BTests;
+			sourceTree = "<group>";
+		};
+		AFB33418291335C4004AAA10 /* FreeFinderMilestone3BUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB33419291335C4004AAA10 /* FreeFinderMilestone3BUITests.swift */,
+				AFB3341B291335C4004AAA10 /* FreeFinderMilestone3BUITestsLaunchTests.swift */,
+			);
+			path = FreeFinderMilestone3BUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB333FA291335C3004AAA10 /* FreeFinderMilestone3B */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB3341F291335C4004AAA10 /* Build configuration list for PBXNativeTarget "FreeFinderMilestone3B" */;
+			buildPhases = (
+				AFB333F7291335C3004AAA10 /* Sources */,
+				AFB333F8291335C3004AAA10 /* Frameworks */,
+				AFB333F9291335C3004AAA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeFinderMilestone3B;
+			productName = FreeFinderMilestone3B;
+			productReference = AFB333FB291335C3004AAA10 /* FreeFinderMilestone3B.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB3340A291335C4004AAA10 /* FreeFinderMilestone3BTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB33422291335C4004AAA10 /* Build configuration list for PBXNativeTarget "FreeFinderMilestone3BTests" */;
+			buildPhases = (
+				AFB33407291335C4004AAA10 /* Sources */,
+				AFB33408291335C4004AAA10 /* Frameworks */,
+				AFB33409291335C4004AAA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB3340D291335C4004AAA10 /* PBXTargetDependency */,
+			);
+			name = FreeFinderMilestone3BTests;
+			productName = FreeFinderMilestone3BTests;
+			productReference = AFB3340B291335C4004AAA10 /* FreeFinderMilestone3BTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFB33414291335C4004AAA10 /* FreeFinderMilestone3BUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB33425291335C4004AAA10 /* Build configuration list for PBXNativeTarget "FreeFinderMilestone3BUITests" */;
+			buildPhases = (
+				AFB33411291335C4004AAA10 /* Sources */,
+				AFB33412291335C4004AAA10 /* Frameworks */,
+				AFB33413291335C4004AAA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB33417291335C4004AAA10 /* PBXTargetDependency */,
+			);
+			name = FreeFinderMilestone3BUITests;
+			productName = FreeFinderMilestone3BUITests;
+			productReference = AFB33415291335C4004AAA10 /* FreeFinderMilestone3BUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB333F3291335C3004AAA10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AFB333FA291335C3004AAA10 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					AFB3340A291335C4004AAA10 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AFB333FA291335C3004AAA10;
+					};
+					AFB33414291335C4004AAA10 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = AFB333FA291335C3004AAA10;
+					};
+				};
+			};
+			buildConfigurationList = AFB333F6291335C3004AAA10 /* Build configuration list for PBXProject "FreeFinderMilestone3B" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB333F2291335C3004AAA10;
+			productRefGroup = AFB333FC291335C3004AAA10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB333FA291335C3004AAA10 /* FreeFinderMilestone3B */,
+				AFB3340A291335C4004AAA10 /* FreeFinderMilestone3BTests */,
+				AFB33414291335C4004AAA10 /* FreeFinderMilestone3BUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB333F9291335C3004AAA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB33406291335C4004AAA10 /* Preview Assets.xcassets in Resources */,
+				AFB33403291335C4004AAA10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB33409291335C4004AAA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB33413291335C4004AAA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB333F7291335C3004AAA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB33401291335C3004AAA10 /* ContentView.swift in Sources */,
+				AFB333FF291335C3004AAA10 /* FreeFinderMilestone3BApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB33407291335C4004AAA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB33410291335C4004AAA10 /* FreeFinderMilestone3BTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB33411291335C4004AAA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB3341C291335C4004AAA10 /* FreeFinderMilestone3BUITestsLaunchTests.swift in Sources */,
+				AFB3341A291335C4004AAA10 /* FreeFinderMilestone3BUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB3340D291335C4004AAA10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB333FA291335C3004AAA10 /* FreeFinderMilestone3B */;
+			targetProxy = AFB3340C291335C4004AAA10 /* PBXContainerItemProxy */;
+		};
+		AFB33417291335C4004AAA10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB333FA291335C3004AAA10 /* FreeFinderMilestone3B */;
+			targetProxy = AFB33416291335C4004AAA10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFB3341D291335C4004AAA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFB3341E291335C4004AAA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB33420291335C4004AAA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreeFinderMilestone3B/Preview Content\"";
+				DEVELOPMENT_TEAM = F76R8439D2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UChicago.FreeFinderMilestone3B;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB33421291335C4004AAA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreeFinderMilestone3B/Preview Content\"";
+				DEVELOPMENT_TEAM = F76R8439D2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UChicago.FreeFinderMilestone3B;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFB33423291335C4004AAA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F76R8439D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UChicago.FreeFinderMilestone3BTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeFinderMilestone3B.app/FreeFinderMilestone3B";
+			};
+			name = Debug;
+		};
+		AFB33424291335C4004AAA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F76R8439D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UChicago.FreeFinderMilestone3BTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeFinderMilestone3B.app/FreeFinderMilestone3B";
+			};
+			name = Release;
+		};
+		AFB33426291335C4004AAA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F76R8439D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UChicago.FreeFinderMilestone3BUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreeFinderMilestone3B;
+			};
+			name = Debug;
+		};
+		AFB33427291335C4004AAA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F76R8439D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UChicago.FreeFinderMilestone3BUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreeFinderMilestone3B;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB333F6291335C3004AAA10 /* Build configuration list for PBXProject "FreeFinderMilestone3B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB3341D291335C4004AAA10 /* Debug */,
+				AFB3341E291335C4004AAA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB3341F291335C4004AAA10 /* Build configuration list for PBXNativeTarget "FreeFinderMilestone3B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB33420291335C4004AAA10 /* Debug */,
+				AFB33421291335C4004AAA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB33422291335C4004AAA10 /* Build configuration list for PBXNativeTarget "FreeFinderMilestone3BTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB33423291335C4004AAA10 /* Debug */,
+				AFB33424291335C4004AAA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB33425291335C4004AAA10 /* Build configuration list for PBXNativeTarget "FreeFinderMilestone3BUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB33426291335C4004AAA10 /* Debug */,
+				AFB33427291335C4004AAA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB333F3291335C3004AAA10 /* Project object */;
+}
