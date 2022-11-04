@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7365FB01291487DB000C4424 /* CreateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7365FB00291487DB000C4424 /* CreateItemView.swift */; };
 		AFB333FF291335C3004AAA10 /* FreeFinderMilestone3BApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB333FE291335C3004AAA10 /* FreeFinderMilestone3BApp.swift */; };
 		AFB33401291335C3004AAA10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB33400291335C3004AAA10 /* ContentView.swift */; };
 		AFB33403291335C4004AAA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB33402291335C4004AAA10 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7365FB00291487DB000C4424 /* CreateItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemView.swift; sourceTree = "<group>"; };
 		AF46DB8D2913382A000600A1 /* Tests_MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_MapKit.swift; sourceTree = "<group>"; };
 		AF46DB9129133863000600A1 /* ProfileViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewTests.swift; sourceTree = "<group>"; };
 		AF46DB9229133863000600A1 /* MapViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewTests.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			children = (
 				AFB333FE291335C3004AAA10 /* FreeFinderMilestone3BApp.swift */,
 				AFB33400291335C3004AAA10 /* ContentView.swift */,
+				7365FB00291487DB000C4424 /* CreateItemView.swift */,
 				AFB33402291335C4004AAA10 /* Assets.xcassets */,
 				AFB33404291335C4004AAA10 /* Preview Content */,
 			);
@@ -299,6 +302,7 @@
 			files = (
 				AFB33401291335C3004AAA10 /* ContentView.swift in Sources */,
 				AFB333FF291335C3004AAA10 /* FreeFinderMilestone3BApp.swift in Sources */,
+				7365FB01291487DB000C4424 /* CreateItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FreeFinderMilestone3B/Preview Content\"";
-				DEVELOPMENT_TEAM = F76R8439D2;
+				DEVELOPMENT_TEAM = C5CUS4LXFK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -470,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UChicago.FreeFinderMilestone3B;
+				PRODUCT_BUNDLE_IDENTIFIER = "UChicago.FreeFinderMilestone3B-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,7 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FreeFinderMilestone3B/Preview Content\"";
-				DEVELOPMENT_TEAM = F76R8439D2;
+				DEVELOPMENT_TEAM = C5CUS4LXFK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -499,7 +503,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UChicago.FreeFinderMilestone3B;
+				PRODUCT_BUNDLE_IDENTIFIER = "UChicago.FreeFinderMilestone3B-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
