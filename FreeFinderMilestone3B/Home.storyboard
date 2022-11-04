@@ -22,8 +22,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
+                                    <tabBarItem title="Home" image="house" catalog="system" id="g0W-KR-hK7"/>
                                     <tabBarItem title="Map" image="map" catalog="system" id="f9b-k7-VaG"/>
                                     <tabBarItem title="List" image="list.bullet" catalog="system" id="q3e-jk-aac"/>
+                                    <tabBarItem title="Profile" image="person.crop.circle" catalog="system" id="zbN-UL-9sF"/>
                                 </items>
                             </tabBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctK-bp-Beh">
@@ -119,8 +121,10 @@
         <segue reference="WQZ-qp-sQJ"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="house" catalog="system" width="128" height="104"/>
         <image name="list.bullet" catalog="system" width="128" height="87"/>
         <image name="map" catalog="system" width="128" height="112"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
