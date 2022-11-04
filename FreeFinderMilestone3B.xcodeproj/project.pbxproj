@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7343030E2914C9250064974F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343030D2914C9250064974F /* Home.storyboard */; };
+		7365FB032914A8DD000C4424 /* CreateItemView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7365FB022914A8DD000C4424 /* CreateItemView.storyboard */; };
+		7365FB062914C107000C4424 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7365FB052914C107000C4424 /* Launch Screen.storyboard */; };
 		AFB333FF291335C3004AAA10 /* FreeFinderMilestone3BApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB333FE291335C3004AAA10 /* FreeFinderMilestone3BApp.swift */; };
 		AFB33401291335C3004AAA10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB33400291335C3004AAA10 /* ContentView.swift */; };
 		AFB33403291335C4004AAA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB33402291335C4004AAA10 /* Assets.xcassets */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7343030D2914C9250064974F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		7365FB022914A8DD000C4424 /* CreateItemView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateItemView.storyboard; sourceTree = "<group>"; };
+		7365FB042914BEBE000C4424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7365FB052914C107000C4424 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		AF46DB8D2913382A000600A1 /* Tests_MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_MapKit.swift; sourceTree = "<group>"; };
 		AF46DB9129133863000600A1 /* ProfileViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewTests.swift; sourceTree = "<group>"; };
 		AF46DB9229133863000600A1 /* MapViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewTests.swift; sourceTree = "<group>"; };
@@ -103,6 +110,7 @@
 		AFB333F2291335C3004AAA10 = {
 			isa = PBXGroup;
 			children = (
+				7365FB052914C107000C4424 /* Launch Screen.storyboard */,
 				AF46DB9029133863000600A1 /* FreeFinderTests */,
 				AF46DB8C2913382A000600A1 /* Tests MapKit */,
 				AFD8190D2913374B00295463 /* Tests GoogleAuth */,
@@ -126,8 +134,11 @@
 		AFB333FD291335C3004AAA10 /* FreeFinderMilestone3B */ = {
 			isa = PBXGroup;
 			children = (
+				7365FB042914BEBE000C4424 /* Info.plist */,
 				AFB333FE291335C3004AAA10 /* FreeFinderMilestone3BApp.swift */,
 				AFB33400291335C3004AAA10 /* ContentView.swift */,
+				7343030D2914C9250064974F /* Home.storyboard */,
+				7365FB022914A8DD000C4424 /* CreateItemView.storyboard */,
 				AFB33402291335C4004AAA10 /* Assets.xcassets */,
 				AFB33404291335C4004AAA10 /* Preview Content */,
 			);
@@ -272,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB33406291335C4004AAA10 /* Preview Assets.xcassets in Resources */,
+				7343030E2914C9250064974F /* Home.storyboard in Resources */,
+				7365FB032914A8DD000C4424 /* CreateItemView.storyboard in Resources */,
+				7365FB062914C107000C4424 /* Launch Screen.storyboard in Resources */,
 				AFB33403291335C4004AAA10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,9 +471,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FreeFinderMilestone3B/Preview Content\"";
-				DEVELOPMENT_TEAM = F76R8439D2;
+				DEVELOPMENT_TEAM = C5CUS4LXFK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FreeFinderMilestone3B/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -470,7 +485,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UChicago.FreeFinderMilestone3B;
+				PRODUCT_BUNDLE_IDENTIFIER = "UChicago.FreeFinderMilestone3B-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,9 +501,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FreeFinderMilestone3B/Preview Content\"";
-				DEVELOPMENT_TEAM = F76R8439D2;
+				DEVELOPMENT_TEAM = C5CUS4LXFK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FreeFinderMilestone3B/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -499,7 +515,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = UChicago.FreeFinderMilestone3B;
+				PRODUCT_BUNDLE_IDENTIFIER = "UChicago.FreeFinderMilestone3B-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
