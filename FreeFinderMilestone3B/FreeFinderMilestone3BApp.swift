@@ -9,6 +9,7 @@ import SwiftUI
 import Firebase
 import FirebaseCore
 
+public var ref: DatabaseReference!
 
 func refresh(){
     
@@ -35,8 +36,26 @@ class User {
         
     }
     func comment(item_id: String, comment: String)-> Bool{
-        return false
+        var ret = false
+        if (comment == ""){
+            ret = false  // cannot have empty comment
+        }
+        else{
+            // need to fix
+            
+            ref.child("items/\(item_id)").observeSingleEvent(of: .value, with: {(snapshot) in
+                if snapshot.exists(){
+                    guard let key = ref.child("items").child(item_id).child("comments").childByAutoId().key else {return}
+                    ref.updateChildValues(["/items/\(item_id)/comments/\(key)" : comment])
+                    ret = true
+                }else{
+                    ret = false
+                }
+            })
+        }
+        return ret
     }
+    
     func delete_item(item_id: String){
         
     }
@@ -48,8 +67,8 @@ class User {
 
 @main
 struct FreeFinderApp: App {
-    //var ref: DatabaseReference!
-    //ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference()
+    let ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference()
+
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     
