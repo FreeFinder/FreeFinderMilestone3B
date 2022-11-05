@@ -8,8 +8,8 @@
 import SwiftUI
 import Firebase
 import FirebaseCore
+import FirebaseAuth
 
-public var ref: DatabaseReference!
 
 func refresh(){
     
@@ -26,7 +26,8 @@ func sign_in(){
 class User {
     var id : String
     var email : String
-    
+    var ref: DatabaseReference!
+
     init(id: String, email: String){
         self.id = id
         self.email = email
@@ -36,6 +37,8 @@ class User {
         
     }
     func comment(item_id: String, comment: String)-> Bool{
+        let ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference()
+
         var ret = false
         if (comment == ""){
             ret = false  // cannot have empty comment
@@ -67,7 +70,6 @@ class User {
 
 @main
 struct FreeFinderApp: App {
-    let ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference()
 
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
@@ -86,5 +88,6 @@ class AppDelegate: NSObject, UIApplicationDelegate{
             return true
     }
 }
+
 
 
