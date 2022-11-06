@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		483E726629184BBD00D128BA /* Mapkit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E726529184BBD00D128BA /* Mapkit_Tests.swift */; };
+		483E727329184BF100D128BA /* GoogleAuth_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E727229184BF100D128BA /* GoogleAuth_Tests.swift */; };
 		7343030E2914C9250064974F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343030D2914C9250064974F /* Home.storyboard */; };
 		7365FB032914A8DD000C4424 /* CreateItemView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7365FB022914A8DD000C4424 /* CreateItemView.storyboard */; };
 		7365FB062914C107000C4424 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7365FB052914C107000C4424 /* Launch Screen.storyboard */; };
@@ -20,6 +22,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		483E726729184BBD00D128BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB333F3291335C3004AAA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB333FA291335C3004AAA10;
+			remoteInfo = FreeFinderMilestone3B;
+		};
+		483E727429184BF100D128BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB333F3291335C3004AAA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB333FA291335C3004AAA10;
+			remoteInfo = FreeFinderMilestone3B;
+		};
 		AFB3340C291335C4004AAA10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AFB333F3291335C3004AAA10 /* Project object */;
@@ -37,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		483E726329184BBD00D128BA /* Mapkit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mapkit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		483E726529184BBD00D128BA /* Mapkit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapkit_Tests.swift; sourceTree = "<group>"; };
+		483E727029184BF100D128BA /* GoogleAuth Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoogleAuth Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		483E727229184BF100D128BA /* GoogleAuth_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuth_Tests.swift; sourceTree = "<group>"; };
 		7343030D2914C9250064974F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		7365FB022914A8DD000C4424 /* CreateItemView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateItemView.storyboard; sourceTree = "<group>"; };
 		7365FB042914BEBE000C4424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +82,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		483E726029184BBD00D128BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483E726D29184BF100D128BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFB333F8291335C3004AAA10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,6 +120,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		483E726429184BBD00D128BA /* Mapkit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				483E726529184BBD00D128BA /* Mapkit_Tests.swift */,
+			);
+			path = "Mapkit Tests";
+			sourceTree = "<group>";
+		};
+		483E727129184BF100D128BA /* GoogleAuth Tests */ = {
+			isa = PBXGroup;
+			children = (
+				483E727229184BF100D128BA /* GoogleAuth_Tests.swift */,
+			);
+			path = "GoogleAuth Tests";
+			sourceTree = "<group>";
+		};
 		AF46DB8C2913382A000600A1 /* Tests MapKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +167,8 @@
 				AFB333FD291335C3004AAA10 /* FreeFinderMilestone3B */,
 				AFB3340E291335C4004AAA10 /* FreeFinderMilestone3BTests */,
 				AFB33418291335C4004AAA10 /* FreeFinderMilestone3BUITests */,
+				483E726429184BBD00D128BA /* Mapkit Tests */,
+				483E727129184BF100D128BA /* GoogleAuth Tests */,
 				AFB333FC291335C3004AAA10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,6 +179,8 @@
 				AFB333FB291335C3004AAA10 /* FreeFinderMilestone3B.app */,
 				AFB3340B291335C4004AAA10 /* FreeFinderMilestone3BTests.xctest */,
 				AFB33415291335C4004AAA10 /* FreeFinderMilestone3BUITests.xctest */,
+				483E726329184BBD00D128BA /* Mapkit Tests.xctest */,
+				483E727029184BF100D128BA /* GoogleAuth Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,6 +235,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		483E726229184BBD00D128BA /* Mapkit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483E726B29184BBD00D128BA /* Build configuration list for PBXNativeTarget "Mapkit Tests" */;
+			buildPhases = (
+				483E725F29184BBD00D128BA /* Sources */,
+				483E726029184BBD00D128BA /* Frameworks */,
+				483E726129184BBD00D128BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483E726829184BBD00D128BA /* PBXTargetDependency */,
+			);
+			name = "Mapkit Tests";
+			productName = "Mapkit Tests";
+			productReference = 483E726329184BBD00D128BA /* Mapkit Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		483E726F29184BF100D128BA /* GoogleAuth Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483E727629184BF100D128BA /* Build configuration list for PBXNativeTarget "GoogleAuth Tests" */;
+			buildPhases = (
+				483E726C29184BF100D128BA /* Sources */,
+				483E726D29184BF100D128BA /* Frameworks */,
+				483E726E29184BF100D128BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				483E727529184BF100D128BA /* PBXTargetDependency */,
+			);
+			name = "GoogleAuth Tests";
+			productName = "GoogleAuth Tests";
+			productReference = 483E727029184BF100D128BA /* GoogleAuth Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AFB333FA291335C3004AAA10 /* FreeFinderMilestone3B */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFB3341F291335C4004AAA10 /* Build configuration list for PBXNativeTarget "FreeFinderMilestone3B" */;
@@ -241,9 +331,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					483E726229184BBD00D128BA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AFB333FA291335C3004AAA10;
+					};
+					483E726F29184BF100D128BA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AFB333FA291335C3004AAA10;
+					};
 					AFB333FA291335C3004AAA10 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -273,11 +371,27 @@
 				AFB333FA291335C3004AAA10 /* FreeFinderMilestone3B */,
 				AFB3340A291335C4004AAA10 /* FreeFinderMilestone3BTests */,
 				AFB33414291335C4004AAA10 /* FreeFinderMilestone3BUITests */,
+				483E726229184BBD00D128BA /* Mapkit Tests */,
+				483E726F29184BF100D128BA /* GoogleAuth Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		483E726129184BBD00D128BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483E726E29184BF100D128BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFB333F9291335C3004AAA10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +421,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		483E725F29184BBD00D128BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483E726629184BBD00D128BA /* Mapkit_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483E726C29184BF100D128BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483E727329184BF100D128BA /* GoogleAuth_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AFB333F7291335C3004AAA10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,6 +466,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		483E726829184BBD00D128BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB333FA291335C3004AAA10 /* FreeFinderMilestone3B */;
+			targetProxy = 483E726729184BBD00D128BA /* PBXContainerItemProxy */;
+		};
+		483E727529184BF100D128BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB333FA291335C3004AAA10 /* FreeFinderMilestone3B */;
+			targetProxy = 483E727429184BF100D128BA /* PBXContainerItemProxy */;
+		};
 		AFB3340D291335C4004AAA10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AFB333FA291335C3004AAA10 /* FreeFinderMilestone3B */;
@@ -349,6 +489,98 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		483E726929184BBD00D128BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KAP5HAAY49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "freefinders.Mapkit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeFinderMilestone3B.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreeFinderMilestone3B";
+			};
+			name = Debug;
+		};
+		483E726A29184BBD00D128BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KAP5HAAY49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "freefinders.Mapkit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeFinderMilestone3B.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreeFinderMilestone3B";
+			};
+			name = Release;
+		};
+		483E727729184BF100D128BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KAP5HAAY49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "freefinders.GoogleAuth-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeFinderMilestone3B.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreeFinderMilestone3B";
+			};
+			name = Debug;
+		};
+		483E727829184BF100D128BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KAP5HAAY49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "freefinders.GoogleAuth-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeFinderMilestone3B.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FreeFinderMilestone3B";
+			};
+			name = Release;
+		};
 		AFB3341D291335C4004AAA10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -602,6 +834,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		483E726B29184BBD00D128BA /* Build configuration list for PBXNativeTarget "Mapkit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483E726929184BBD00D128BA /* Debug */,
+				483E726A29184BBD00D128BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483E727629184BF100D128BA /* Build configuration list for PBXNativeTarget "GoogleAuth Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483E727729184BF100D128BA /* Debug */,
+				483E727829184BF100D128BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AFB333F6291335C3004AAA10 /* Build configuration list for PBXProject "FreeFinderMilestone3B" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
