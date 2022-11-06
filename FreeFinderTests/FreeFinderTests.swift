@@ -10,11 +10,15 @@ import XCTest
 import Firebase
 
 class FreeFinderTests: XCTestCase {
+    
+    //FirebaseApp.configure()
     var ref: DatabaseReference!
     ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference().child("items")
     
     
+    
     override func setUpWithError() throws {
+        //FirebaseApp.configure()
         var test_user = User("user1id", "jlabuda@uchicago.edu") //need user instance to test respective functions
         var item1 = "itemid1" //will be id of test data already in DB
         var item2 = "testitemid2" // id of item not in DB
