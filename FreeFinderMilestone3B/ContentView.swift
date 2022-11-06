@@ -34,7 +34,7 @@ struct ContentView_Previews: PreviewProvider {
 struct StoryboardView: UIViewControllerRepresentable{
     func makeUIViewController(context content: Context) -> UIViewController{
         let storyboard = UIStoryboard(name:"Home", bundle: Bundle.main)
-        let controller = storyboard.instantiateViewController(identifier: "Home")
+        let controller = storyboard.instantiateViewController(identifier: "TabBar")
         return controller
     }
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
