@@ -1,0 +1,6 @@
+framework module Pods_FreeFinderMilestone3BTests {
+  umbrella header "Pods-FreeFinderMilestone3BTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

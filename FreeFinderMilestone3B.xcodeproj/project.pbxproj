@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E6608B67A1EB5917B02E3BB /* Pods_FreeFinderMilestone3BTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2BF6FA01FD3E8E713E7A22 /* Pods_FreeFinderMilestone3BTests.framework */; };
 		483E726629184BBD00D128BA /* Mapkit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E726529184BBD00D128BA /* Mapkit_Tests.swift */; };
 		483E727329184BF100D128BA /* GoogleAuth_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E727229184BF100D128BA /* GoogleAuth_Tests.swift */; };
+		63C36FC0365CC5484AE407E7 /* Pods_FreeFinderMilestone3B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5D1A3546F1F36D4D626713 /* Pods_FreeFinderMilestone3B.framework */; };
 		7343030E2914C9250064974F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343030D2914C9250064974F /* Home.storyboard */; };
 		7365FB032914A8DD000C4424 /* CreateItemView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7365FB022914A8DD000C4424 /* CreateItemView.storyboard */; };
 		7365FB062914C107000C4424 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7365FB052914C107000C4424 /* Launch Screen.storyboard */; };
+		8241A5AFCF41FA1ECD990E6E /* Pods_FreeFinderMilestone3B_FreeFinderMilestone3BUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B30DBB45633FD6210946B63 /* Pods_FreeFinderMilestone3B_FreeFinderMilestone3BUITests.framework */; };
 		AF030C1D2916D2400044C025 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF030C1C2916D2400044C025 /* GoogleService-Info.plist */; };
 		AF030C202916D2B70044C025 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AF030C1F2916D2B70044C025 /* FirebaseAnalytics */; };
 		AF030C222916D2B70044C025 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = AF030C212916D2B70044C025 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -80,16 +83,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27832AC8EFABDF94F114B304 /* Pods-FreeFinderMilestone3BTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeFinderMilestone3BTests.debug.xcconfig"; path = "Target Support Files/Pods-FreeFinderMilestone3BTests/Pods-FreeFinderMilestone3BTests.debug.xcconfig"; sourceTree = "<group>"; };
 		483E726329184BBD00D128BA /* Mapkit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mapkit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		483E726529184BBD00D128BA /* Mapkit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapkit_Tests.swift; sourceTree = "<group>"; };
 		483E727029184BF100D128BA /* GoogleAuth Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoogleAuth Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		483E727229184BF100D128BA /* GoogleAuth_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuth_Tests.swift; sourceTree = "<group>"; };
+		5F2BF6FA01FD3E8E713E7A22 /* Pods_FreeFinderMilestone3BTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeFinderMilestone3BTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B49BCD6DA8103EAC0B074A5 /* Pods-FreeFinderMilestone3BTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeFinderMilestone3BTests.release.xcconfig"; path = "Target Support Files/Pods-FreeFinderMilestone3BTests/Pods-FreeFinderMilestone3BTests.release.xcconfig"; sourceTree = "<group>"; };
 		7343030D2914C9250064974F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		7365FB022914A8DD000C4424 /* CreateItemView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateItemView.storyboard; sourceTree = "<group>"; };
 		7365FB042914BEBE000C4424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7365FB052914C107000C4424 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9B30DBB45633FD6210946B63 /* Pods_FreeFinderMilestone3B_FreeFinderMilestone3BUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeFinderMilestone3B_FreeFinderMilestone3BUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72D0424EBFC944584DDB34C /* Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests.release.xcconfig"; path = "Target Support Files/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AF030C1C2916D2400044C025 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		AF46DB8D2913382A000600A1 /* Tests_MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_MapKit.swift; sourceTree = "<group>"; };
+		AF147E976777AE617CDE36DB /* Pods-FreeFinderMilestone3B.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeFinderMilestone3B.debug.xcconfig"; path = "Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B.debug.xcconfig"; sourceTree = "<group>"; };
 		AF46DB9129133863000600A1 /* ProfileViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewTests.swift; sourceTree = "<group>"; };
 		AF46DB9229133863000600A1 /* MapViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewTests.swift; sourceTree = "<group>"; };
 		AF46DB9329133863000600A1 /* ListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTests.swift; sourceTree = "<group>"; };
@@ -106,6 +114,9 @@
 		AFB33415291335C4004AAA10 /* FreeFinderMilestone3BUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeFinderMilestone3BUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB33419291335C4004AAA10 /* FreeFinderMilestone3BUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BUITests.swift; sourceTree = "<group>"; };
 		AFB3341B291335C4004AAA10 /* FreeFinderMilestone3BUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC5D1A3546F1F36D4D626713 /* Pods_FreeFinderMilestone3B.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeFinderMilestone3B.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06B1FCA8D369339C6DAA860 /* Pods-FreeFinderMilestone3B.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeFinderMilestone3B.release.xcconfig"; path = "Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B.release.xcconfig"; sourceTree = "<group>"; };
+		F5A76409A2BAAF6E2C0FA559 /* Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests.debug.xcconfig"; path = "Target Support Files/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +164,7 @@
 				AF030C2A2916D2B70044C025 /* FirebaseAppDistribution-Beta in Frameworks */,
 				AF030C422916D2B70044C025 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
 				AF030C2E2916D2B70044C025 /* FirebaseAuthCombine-Community in Frameworks */,
+				63C36FC0365CC5484AE407E7 /* Pods_FreeFinderMilestone3B.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E6608B67A1EB5917B02E3BB /* Pods_FreeFinderMilestone3BTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,12 +180,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8241A5AFCF41FA1ECD990E6E /* Pods_FreeFinderMilestone3B_FreeFinderMilestone3BUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		264CA65F5BC8E83CC5258038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC5D1A3546F1F36D4D626713 /* Pods_FreeFinderMilestone3B.framework */,
+				9B30DBB45633FD6210946B63 /* Pods_FreeFinderMilestone3B_FreeFinderMilestone3BUITests.framework */,
+				5F2BF6FA01FD3E8E713E7A22 /* Pods_FreeFinderMilestone3BTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		483E726429184BBD00D128BA /* Mapkit Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +211,20 @@
 				483E727229184BF100D128BA /* GoogleAuth_Tests.swift */,
 			);
 			path = "GoogleAuth Tests";
+			sourceTree = "<group>";
+		};
+		85FF762B52D372D08BF70037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF147E976777AE617CDE36DB /* Pods-FreeFinderMilestone3B.debug.xcconfig */,
+				E06B1FCA8D369339C6DAA860 /* Pods-FreeFinderMilestone3B.release.xcconfig */,
+				F5A76409A2BAAF6E2C0FA559 /* Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests.debug.xcconfig */,
+				A72D0424EBFC944584DDB34C /* Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests.release.xcconfig */,
+				27832AC8EFABDF94F114B304 /* Pods-FreeFinderMilestone3BTests.debug.xcconfig */,
+				6B49BCD6DA8103EAC0B074A5 /* Pods-FreeFinderMilestone3BTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		AF46DB9029133863000600A1 /* FreeFinderTests */ = {
@@ -214,6 +252,8 @@
 				483E726429184BBD00D128BA /* Mapkit Tests */,
 				483E727129184BF100D128BA /* GoogleAuth Tests */,
 				AFB333FC291335C3004AAA10 /* Products */,
+				85FF762B52D372D08BF70037 /* Pods */,
+				264CA65F5BC8E83CC5258038 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -311,9 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFB3341F291335C4004AAA10 /* Build configuration list for PBXNativeTarget "FreeFinderMilestone3B" */;
 			buildPhases = (
+				0AF75FC14A18F8123F7C93C3 /* [CP] Check Pods Manifest.lock */,
 				AFB333F7291335C3004AAA10 /* Sources */,
 				AFB333F8291335C3004AAA10 /* Frameworks */,
 				AFB333F9291335C3004AAA10 /* Resources */,
+				B92D332F33B59708431E3DDE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,6 +398,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFB33422291335C4004AAA10 /* Build configuration list for PBXNativeTarget "FreeFinderMilestone3BTests" */;
 			buildPhases = (
+				B72DDC2E0AEEF651E8110895 /* [CP] Check Pods Manifest.lock */,
 				AFB33407291335C4004AAA10 /* Sources */,
 				AFB33408291335C4004AAA10 /* Frameworks */,
 				AFB33409291335C4004AAA10 /* Resources */,
@@ -374,9 +417,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFB33425291335C4004AAA10 /* Build configuration list for PBXNativeTarget "FreeFinderMilestone3BUITests" */;
 			buildPhases = (
+				766B35A8FF09A6235E7F9AA7 /* [CP] Check Pods Manifest.lock */,
 				AFB33411291335C4004AAA10 /* Sources */,
 				AFB33412291335C4004AAA10 /* Frameworks */,
 				AFB33413291335C4004AAA10 /* Resources */,
+				1EF54AD74AFEBE2B725C6220 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -488,6 +533,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF75FC14A18F8123F7C93C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeFinderMilestone3B-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EF54AD74AFEBE2B725C6220 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		766B35A8FF09A6235E7F9AA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72DDC2E0AEEF651E8110895 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeFinderMilestone3BTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92D332F33B59708431E3DDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		483E725F29184BBD00D128BA /* Sources */ = {
@@ -766,6 +914,7 @@
 		};
 		AFB33420291335C4004AAA10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF147E976777AE617CDE36DB /* Pods-FreeFinderMilestone3B.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -796,6 +945,7 @@
 		};
 		AFB33421291335C4004AAA10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06B1FCA8D369339C6DAA860 /* Pods-FreeFinderMilestone3B.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -826,6 +976,7 @@
 		};
 		AFB33423291335C4004AAA10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27832AC8EFABDF94F114B304 /* Pods-FreeFinderMilestone3BTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -846,6 +997,7 @@
 		};
 		AFB33424291335C4004AAA10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B49BCD6DA8103EAC0B074A5 /* Pods-FreeFinderMilestone3BTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -866,6 +1018,7 @@
 		};
 		AFB33426291335C4004AAA10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A76409A2BAAF6E2C0FA559 /* Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -884,6 +1037,7 @@
 		};
 		AFB33427291335C4004AAA10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72D0424EBFC944584DDB34C /* Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

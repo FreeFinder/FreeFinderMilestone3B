@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_FreeFinderMilestone3B_FreeFinderMilestone3BUITests : NSObject
+@end
+@implementation PodsDummy_Pods_FreeFinderMilestone3B_FreeFinderMilestone3BUITests
+@end
