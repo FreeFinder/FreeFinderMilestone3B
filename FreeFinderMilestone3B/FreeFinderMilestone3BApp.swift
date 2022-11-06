@@ -21,6 +21,14 @@ func item_to_annot(item_id: String){
 }
 
 func sign_in(){
+    let ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference()
+    GIDSignIn.sharedInstance()?.restorePreviousSignIn()
+    var currUser = GIDSignIn.currentUser
+    if currUser != nil{
+        let mail = currUser.profile.email
+        return User(id, email: mail)
+    }
+    GIDSignIn.sharedInstance()?.signIn()
     
 }
 
@@ -88,12 +96,6 @@ class AppDelegate: NSObject, UIApplicationDelegate{
         GIDSignIn.sharedInstance().clientID = "104716456050-t3omc9n9t4h98nb3o2mgkumd9kpvcs8u.apps.googleusercontent.com"
         // 2
         GIDSignIn.sharedInstance().delegate = self
-        // 3
-        GIDSignIn.sharedInstance()?.restorePreviousSignIn()
-        if GIDSignIn != nil{
-            let mail = GIDSignIn.currentUser.profile.email
-            mainUser.setEmail(e: mail)
-        }
         return true
     }
     
