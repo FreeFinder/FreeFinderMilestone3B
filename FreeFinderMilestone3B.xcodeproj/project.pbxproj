@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7343030E2914C9250064974F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343030D2914C9250064974F /* Home.storyboard */; };
+		734303102918453E0064974F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343030F2918453E0064974F /* Profile.storyboard */; };
+		7343031329184CC20064974F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343031229184CC20064974F /* ProfileViewController.swift */; };
 		7365FB032914A8DD000C4424 /* CreateItemView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7365FB022914A8DD000C4424 /* CreateItemView.storyboard */; };
 		7365FB062914C107000C4424 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7365FB052914C107000C4424 /* Launch Screen.storyboard */; };
 		AFB333FF291335C3004AAA10 /* FreeFinderMilestone3BApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB333FE291335C3004AAA10 /* FreeFinderMilestone3BApp.swift */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		7343030D2914C9250064974F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		7343030F2918453E0064974F /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		7343031229184CC20064974F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		7365FB022914A8DD000C4424 /* CreateItemView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateItemView.storyboard; sourceTree = "<group>"; };
 		7365FB042914BEBE000C4424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7365FB052914C107000C4424 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -86,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7343031129184CAE0064974F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7343031229184CC20064974F /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		AF46DB8C2913382A000600A1 /* Tests MapKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +150,8 @@
 				AFB333FE291335C3004AAA10 /* FreeFinderMilestone3BApp.swift */,
 				AFB33400291335C3004AAA10 /* ContentView.swift */,
 				7343030D2914C9250064974F /* Home.storyboard */,
+				7343030F2918453E0064974F /* Profile.storyboard */,
+				7343031129184CAE0064974F /* ViewControllers */,
 				7365FB022914A8DD000C4424 /* CreateItemView.storyboard */,
 				AFB33402291335C4004AAA10 /* Assets.xcassets */,
 				AFB33404291335C4004AAA10 /* Preview Content */,
@@ -282,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734303102918453E0064974F /* Profile.storyboard in Resources */,
 				AFB33406291335C4004AAA10 /* Preview Assets.xcassets in Resources */,
 				7343030E2914C9250064974F /* Home.storyboard in Resources */,
 				7365FB032914A8DD000C4424 /* CreateItemView.storyboard in Resources */,
@@ -311,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7343031329184CC20064974F /* ProfileViewController.swift in Sources */,
 				AFB33401291335C3004AAA10 /* ContentView.swift in Sources */,
 				AFB333FF291335C3004AAA10 /* FreeFinderMilestone3BApp.swift in Sources */,
 			);
