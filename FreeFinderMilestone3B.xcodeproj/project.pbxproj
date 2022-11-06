@@ -61,7 +61,6 @@
 		7365FB022914A8DD000C4424 /* CreateItemView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateItemView.storyboard; sourceTree = "<group>"; };
 		7365FB042914BEBE000C4424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7365FB052914C107000C4424 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		AF46DB8D2913382A000600A1 /* Tests_MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_MapKit.swift; sourceTree = "<group>"; };
 		AF46DB9129133863000600A1 /* ProfileViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewTests.swift; sourceTree = "<group>"; };
 		AF46DB9229133863000600A1 /* MapViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewTests.swift; sourceTree = "<group>"; };
 		AF46DB9329133863000600A1 /* ListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTests.swift; sourceTree = "<group>"; };
@@ -78,7 +77,6 @@
 		AFB33415291335C4004AAA10 /* FreeFinderMilestone3BUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeFinderMilestone3BUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB33419291335C4004AAA10 /* FreeFinderMilestone3BUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BUITests.swift; sourceTree = "<group>"; };
 		AFB3341B291335C4004AAA10 /* FreeFinderMilestone3BUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeFinderMilestone3BUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AFD8190E2913374B00295463 /* Tests_GoogleAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_GoogleAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,14 +134,6 @@
 			path = "GoogleAuth Tests";
 			sourceTree = "<group>";
 		};
-		AF46DB8C2913382A000600A1 /* Tests MapKit */ = {
-			isa = PBXGroup;
-			children = (
-				AF46DB8D2913382A000600A1 /* Tests_MapKit.swift */,
-			);
-			path = "Tests MapKit";
-			sourceTree = "<group>";
-		};
 		AF46DB9029133863000600A1 /* FreeFinderTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,8 +152,6 @@
 			children = (
 				7365FB052914C107000C4424 /* Launch Screen.storyboard */,
 				AF46DB9029133863000600A1 /* FreeFinderTests */,
-				AF46DB8C2913382A000600A1 /* Tests MapKit */,
-				AFD8190D2913374B00295463 /* Tests GoogleAuth */,
 				AFB333FD291335C3004AAA10 /* FreeFinderMilestone3B */,
 				AFB3340E291335C4004AAA10 /* FreeFinderMilestone3BTests */,
 				AFB33418291335C4004AAA10 /* FreeFinderMilestone3BUITests */,
@@ -222,14 +210,6 @@
 				AFB3341B291335C4004AAA10 /* FreeFinderMilestone3BUITestsLaunchTests.swift */,
 			);
 			path = FreeFinderMilestone3BUITests;
-			sourceTree = "<group>";
-		};
-		AFD8190D2913374B00295463 /* Tests GoogleAuth */ = {
-			isa = PBXGroup;
-			children = (
-				AFD8190E2913374B00295463 /* Tests_GoogleAuth.swift */,
-			);
-			path = "Tests GoogleAuth";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
