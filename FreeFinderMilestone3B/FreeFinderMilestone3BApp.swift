@@ -20,16 +20,25 @@ func item_to_annot(item_id: String){
     
 }
 
-func sign_in(){
+func sign_in() -> User?{
     let ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference()
+    
     GIDSignIn.sharedInstance()?.restorePreviousSignIn()
-    var currUser = GIDSignIn.currentUser
-    if currUser != nil{
-        let mail = currUser.profile.email
-        return User(id, email: mail)
+    if GIDSignIn != nil{
+        let mail = GIDSignIn.currentUser.profile.email
+        let ID = GIDSignIn.currentUser.userID
+        return User(id: ID, email: mail)
     }
     GIDSignIn.sharedInstance()?.signIn()
-    
+    if GIDSignIn != nil{
+        let mail = GIDSignIn.currentUser.profile.email
+        let ID = GIDSignIn.currentUser.userID
+        //TODO: add to DB
+        ref.child("users/\(ID)/email").setValue(mail)
+        return User(id: ID, email: mail)
+    }else{
+        return nil
+    }
 }
 
 class User {
@@ -45,6 +54,7 @@ class User {
     func create_item(){
         
     }
+    
     func comment(item_id: String, comment: String)-> Bool{
         let ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference()
 
@@ -71,15 +81,16 @@ class User {
     func delete_item(item_id: String){
         
     }
-    func sign_out(){
-        
+    
+    func sign_out() -> Bool{
+        GIDSignIn.sharedInstance()?.signOut()
+        return (GIDSignIn == nil)
     }
     
 }
 
 struct FreeFinderMilestone3BApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-
     
     var body: some Scene {
         WindowGroup {
@@ -90,8 +101,7 @@ struct FreeFinderMilestone3BApp: App {
 
 class AppDelegate: NSObject, UIApplicationDelegate{
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-            FirebaseApp.configure()
-            
+        FirebaseApp.configure()
         // 1
         GIDSignIn.sharedInstance().clientID = "104716456050-t3omc9n9t4h98nb3o2mgkumd9kpvcs8u.apps.googleusercontent.com"
         // 2
@@ -106,11 +116,9 @@ class AppDelegate: NSObject, UIApplicationDelegate{
         return GIDSignIn.sharedInstance().handle(url)
     }
 }
-    
+
 extension AppDelegate: GIDSignInDelegate {
-        
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
-            
         // Check for sign in error
         if let error = error {
             if (error as NSError).code == GIDSignInErrorCode.hasNoAuthInKeychain.rawValue {
@@ -122,6 +130,3 @@ extension AppDelegate: GIDSignInDelegate {
         }
     }
 }
-
-
-
