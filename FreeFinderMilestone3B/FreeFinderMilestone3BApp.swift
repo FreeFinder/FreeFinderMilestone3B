@@ -9,6 +9,7 @@ import SwiftUI
 import Firebase
 import FirebaseCore
 import FirebaseAuth
+import GoogleSignIn
 
 
 func refresh(){
@@ -124,9 +125,25 @@ class AppDelegate: NSObject, UIApplicationDelegate{
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
             FirebaseApp.configure()
             
-            return true
+        // 1
+        GIDSignIn.sharedInstance().clientID = "104716456050-t3omc9n9t4h98nb3o2mgkumd9kpvcs8u.apps.googleusercontent.com"
+        // 2
+        GIDSignIn.sharedInstance().delegate = self
+        // 3
+        GIDSignIn.sharedInstance()?.restorePreviousSignIn()
+        if GIDSignIn != nil{
+            let mail = GIDSignIn.currentUser.profile.email
+            mainUser.setEmail(e: mail)
+        }
+        return true
     }
-}
+    
+    func application(_ app: UIApplication,
+                     open url: URL,
+                     options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
+
+        return GIDSignIn.sharedInstance().handle(url)
+    }}
 
 
 
