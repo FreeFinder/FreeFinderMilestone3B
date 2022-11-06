@@ -62,7 +62,7 @@ final class MapKitTests: XCTestCase {
     func testMapInitialization() {
         // Testing is map type is working
         // for this app we are most likely going to be using a roadmap since it will be campus specific
-        XCTAssert(viewControllerUnderTest.mapView.mapType == MKMapType.roadmap);
+        XCTAssert(viewControllerUnderTest.mapView.mapType == MKMapType.standard);
     }
     
     func testControllerImplementsMKMapViewDelegateMethods() {
