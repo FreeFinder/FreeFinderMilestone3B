@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		483E726629184BBD00D128BA /* Mapkit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E726529184BBD00D128BA /* Mapkit_Tests.swift */; };
 		483E727329184BF100D128BA /* GoogleAuth_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E727229184BF100D128BA /* GoogleAuth_Tests.swift */; };
+		5DB53A55291868E900D3E1F2 /* ViewItem.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB53A54291868E900D3E1F2 /* ViewItem.storyboard */; };
+		5DB53A5B29186A3900D3E1F2 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB53A5A29186A3900D3E1F2 /* ItemViewController.swift */; };
 		7343030E2914C9250064974F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343030D2914C9250064974F /* Home.storyboard */; };
 		734303102918453E0064974F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343030F2918453E0064974F /* Profile.storyboard */; };
 		7343031329184CC20064974F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343031229184CC20064974F /* ProfileViewController.swift */; };
@@ -86,6 +88,8 @@
 		483E726529184BBD00D128BA /* Mapkit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapkit_Tests.swift; sourceTree = "<group>"; };
 		483E727029184BF100D128BA /* GoogleAuth Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoogleAuth Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		483E727229184BF100D128BA /* GoogleAuth_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuth_Tests.swift; sourceTree = "<group>"; };
+		5DB53A54291868E900D3E1F2 /* ViewItem.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewItem.storyboard; sourceTree = "<group>"; };
+		5DB53A5A29186A3900D3E1F2 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		7343030D2914C9250064974F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		7343030F2918453E0064974F /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		7343031229184CC20064974F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -250,6 +254,7 @@
 				7343031129184CAE0064974F /* ViewControllers */,
 				7365FB022914A8DD000C4424 /* CreateItemView.storyboard */,
 				AFB33402291335C4004AAA10 /* Assets.xcassets */,
+				5DB53A54291868E900D3E1F2 /* ViewItem.storyboard */,
 				AFB33404291335C4004AAA10 /* Preview Content */,
 				AFD4CC07291865B5003653E8 /* List.storyboard */,
 				AFD4CC3D29187A55003653E8 /* ItemsTableViewController.swift */,
@@ -483,6 +488,7 @@
 				7343030E2914C9250064974F /* Home.storyboard in Resources */,
 				7365FB032914A8DD000C4424 /* CreateItemView.storyboard in Resources */,
 				7365FB062914C107000C4424 /* Launch Screen.storyboard in Resources */,
+				5DB53A55291868E900D3E1F2 /* ViewItem.storyboard in Resources */,
 				AFB33403291335C4004AAA10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,7 +532,6 @@
 			files = (
 				7343031329184CC20064974F /* ProfileViewController.swift in Sources */,
 				AFB33401291335C3004AAA10 /* ContentView.swift in Sources */,
-				AFD4CC3E29187A55003653E8 /* ItemsTableViewController.swift in Sources */,
 				AFB333FF291335C3004AAA10 /* FreeFinderMilestone3BApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
