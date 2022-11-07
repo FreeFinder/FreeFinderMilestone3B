@@ -7,7 +7,7 @@ target 'FreeFinderMilestone3B' do
 
   # Pods for FreeFinderMilestone3B
 
-  pod 'GoogleSignIn', '~> 4.0'
+  pod 'GoogleSignIn', '~> 5.0'
 
   target 'FreeFinderMilestone3BTests' do
     inherit! :search_paths

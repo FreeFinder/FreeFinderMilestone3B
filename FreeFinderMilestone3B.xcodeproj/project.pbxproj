@@ -356,7 +356,7 @@
 				AFB333F8291335C3004AAA10 /* Frameworks */,
 				AFB333F9291335C3004AAA10 /* Resources */,
 				B92D332F33B59708431E3DDE /* [CP] Embed Pods Frameworks */,
-				5F46B41D062D706C16BA5FF0 /* [CP] Copy Pods Resources */,
+				E861DD5DE7FAD4E77C149B01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -423,7 +423,7 @@
 				AFB33412291335C4004AAA10 /* Frameworks */,
 				AFB33413291335C4004AAA10 /* Resources */,
 				1EF54AD74AFEBE2B725C6220 /* [CP] Embed Pods Frameworks */,
-				AB512D51C577CDF50AD12679 /* [CP] Copy Pods Resources */,
+				8E3DE01AAF88AB39C6174EA0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -576,23 +576,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests/Pods-FreeFinderMilestone3B-FreeFinderMilestone3BUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5F46B41D062D706C16BA5FF0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		766B35A8FF09A6235E7F9AA7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -615,7 +598,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AB512D51C577CDF50AD12679 /* [CP] Copy Pods Resources */ = {
+		8E3DE01AAF88AB39C6174EA0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -669,6 +652,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E861DD5DE7FAD4E77C149B01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeFinderMilestone3B/Pods-FreeFinderMilestone3B-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
