@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="6cx-I7-tio" customClass="ItemViewController" customModule="FreeFinderMilestone3B" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b4z-i6-KM3">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkn-fb-bA6">
@@ -44,7 +44,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JtJ-pD-0Wt">
-                                <rect key="frame" x="2" y="700" width="388" height="50"/>
+                                <rect key="frame" x="1" y="769" width="389" height="50"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -91,7 +91,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="commentButtonPressed:" destination="6cx-I7-tio" eventType="touchUpInside" id="2hN-91-Pok"/>
-                                    <segue destination="t63-ae-Mtm" kind="presentation" id="uvI-FB-IzX"/>
+                                    <segue destination="t63-ae-Mtm" kind="presentation" modalPresentationStyle="fullScreen" id="uvI-FB-IzX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -116,7 +116,7 @@
             <objects>
                 <viewController id="t63-ae-Mtm" customClass="ItemViewController" customModule="FreeFinderMilestone3B" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="byx-os-sFC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add Comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lt5-Pk-RJy">
@@ -135,7 +135,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="postCommentButtonPressed:" destination="t63-ae-Mtm" eventType="touchUpInside" id="wby-81-gNE"/>
-                                    <segue destination="6cx-I7-tio" kind="presentation" id="iCy-rU-0tL"/>
+                                    <segue destination="6cx-I7-tio" kind="presentation" modalPresentationStyle="fullScreen" id="iCy-rU-0tL"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Comment" textAlignment="natural" minimumFontSize="17" id="g9J-dD-PrG">
@@ -152,7 +152,7 @@
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="6cx-I7-tio" kind="presentation" id="XfS-Ge-b60"/>
+                                    <segue destination="6cx-I7-tio" kind="presentation" modalPresentationStyle="fullScreen" id="XfS-Ge-b60"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -169,7 +169,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iCy-rU-0tL"/>
+        <segue reference="uvI-FB-IzX"/>
+        <segue reference="XfS-Ge-b60"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.left" catalog="system" width="97" height="128"/>
