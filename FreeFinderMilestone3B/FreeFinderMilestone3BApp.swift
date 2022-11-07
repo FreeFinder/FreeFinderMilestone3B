@@ -23,9 +23,7 @@ func item_to_annot(item_id: String){
 func sign_in() -> User?{
     let ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference()
     
-    if GIDSignIn.sharedInstance().hasAuthInKeychain(){
-        GIDSignIn.sharedInstance().signInSilently()
-    }
+    GIDSignIn.sharedInstance().restorePreviousSignIn()
     var u = GIDSignIn.sharedInstance().currentUser
     if u != nil{
         let mail = u?.profile.email
