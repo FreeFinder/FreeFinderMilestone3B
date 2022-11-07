@@ -23,32 +23,36 @@ func item_to_annot(item_id: String){
 func sign_in() -> User?{
     let ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference()
     
-    GIDSignIn.sharedInstance()?.restorePreviousSignIn()
-    if GIDSignIn != nil{
-        let mail = GIDSignIn.currentUser.profile.email
-        let ID = GIDSignIn.currentUser.userID
-        return User(id: ID, email: mail)
+    if GIDSignIn.sharedInstance().hasAuthInKeychain(){
+        GIDSignIn.sharedInstance().signInSilently()
+    }
+    var u = GIDSignIn.sharedInstance().currentUser
+    if u != nil{
+        let mail = u?.profile.email
+        let ID = u?.userID
+        return User(ID: ID, mail: mail)
     }
     GIDSignIn.sharedInstance()?.signIn()
-    if GIDSignIn != nil{
-        let mail = GIDSignIn.currentUser.profile.email
-        let ID = GIDSignIn.currentUser.userID
+    u = GIDSignIn.sharedInstance().currentUser
+    if u != nil{
+        let mail = u?.profile.email
+        let ID = u?.userID
         //TODO: add to DB
         ref.child("users/\(ID)/email").setValue(mail)
-        return User(id: ID, email: mail)
+        return User(ID: ID, mail: mail)
     }else{
         return nil
     }
 }
 
 class User {
-    var id : String
-    var email : String
+    var id : String?
+    var email : String?
     var ref: DatabaseReference!
 
-    init(id: String, email: String){
-        self.id = id
-        self.email = email
+    init(ID: String?, mail: String?){
+        self.id = ID
+        self.email = mail
     }
     
     func create_item(){
@@ -84,7 +88,7 @@ class User {
     
     func sign_out() -> Bool{
         GIDSignIn.sharedInstance()?.signOut()
-        return (GIDSignIn == nil)
+        return (GIDSignIn.sharedInstance() == nil)
     }
     
 }
@@ -113,7 +117,7 @@ class AppDelegate: NSObject, UIApplicationDelegate{
                      open url: URL,
                      options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
 
-        return GIDSignIn.sharedInstance().handle(url)
+        return true
     }
 }
 
