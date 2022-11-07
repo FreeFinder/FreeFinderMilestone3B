@@ -7,8 +7,28 @@
 
 import UIKit
 
+struct Item{
+    var id : String
+    var title : String
+    var description : String
+    
+}
+
+func make_list() -> [Item]{
+    // grab all items from DB
+    // make item obj for each one
+    return
+}
+
 class ItemsTableViewController: UITableViewController {
 
+    var items = make_list()
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear()
+        items = make_list()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,61 +41,33 @@ class ItemsTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        
-        return 0
+        return items.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
-        // Configure the cell...
+        let item = items[indexPath.row]
+        cell.textLabel?.text = item.title
+        cell.detailTextLabel?.text = item.description
+        //cell.imageView?.image = UIImage(named: item.photo)
 
         return cell
     }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        //println(tasks[indexPath.row])
+        // !!!!! need to figure out how to pass id on click, and connect to the item view
 
     }
-    */
 
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
+    // !!!!! need to figure out how to pass id on click, and connect to the item view
+    
+    
+    
     /*
     // MARK: - Navigation
 
