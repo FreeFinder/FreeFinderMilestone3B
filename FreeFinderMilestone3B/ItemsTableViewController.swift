@@ -7,38 +7,16 @@
 
 import UIKit
 import Firebase
+import main
 
-struct Item{
-    var id : String
-    var title : String
-    var description : String
-    
-}
-
-func make_list() -> [Item]{
-    // grab all items from DB
-    // make item obj for each one
-    var out = [Item]
-    var ref: DatabaseReference!
-    ref = Database.database(url: "https://freefinder-12f0c-default-rtdb.firebaseio.com/").reference().child("items")
-    
-    ref.observeSingleEventOfType(.Value, withBlock { snapshot in
-      for child in snapshot.children {
-          let temp = Item(child.key, child.value["title"], child.value["description"])
-          out.append(temp)
-      }
-    })
-
-    return out
-}
 
 class ItemsTableViewController: UITableViewController {
 
-    var items = make_list()
+    var items = refresh()
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear()
-        items = make_list()
+        items = refresh()
     }
     
     override func viewDidLoad() {
